@@ -1,6 +1,7 @@
 {
   "extends": "rallycoding",
   "globals": {
-    "fetch": false
+    "fetch": false,
+    "UIManager": false
   }
 }

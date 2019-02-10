@@ -3,11 +3,14 @@ import {
   Text,
   TouchableWithoutFeedback,
   View,
+  UIManager,
   LayoutAnimation
 } from 'react-native';
 import { connect } from 'react-redux';
 import { CardSection } from './common';
 import * as actions from '../actions';
+
+UIManager.setLayoutAnimationEnabledExperimental(true);
 
 class ListItem extends Component {
   componentWillUpdate() {
